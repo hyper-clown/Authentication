@@ -1,0 +1,18 @@
+{
+  "name": "authentication",
+  "version": "1.0.0",
+  "description": "authentication with jwt token",
+  "main": "authentication.js",
+  "scripts": {
+    "start:dev": "NODE_ENV=dev  nodemon authentication.js",
+    "start:qa": "NODE_ENV=qa  nodemon authentication.js",
+    "start:prod": "NODE_ENV=prod  nodemon authentication.js"
+  },
+  "author": "ajithkumar",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
